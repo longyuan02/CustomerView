@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CanvasLightLine">
+        <attr name="sideColor" format="color" />
+        <attr name="setRadius" format="integer" />
+        <attr name="setSpeed" format="integer" />
+        <attr name="setSidePadding" format="integer" />
+    </declare-styleable>
+</resources>

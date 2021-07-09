@@ -1,0 +1,91 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CustomerAnimor</string>
+
+    <string name="help_btn">帮助</string>
+    <string name="empty"></string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="label_me">Tv</string>
+    <string name="wfd_wait">Waiting for connection...</string>
+    <string name="wfd_connecting">与手机正在连接... </string>
+    <string name="wfd_connected">Connected with   </string>
+    <string name="wfd_port_error">Cannot get RTSP port</string>
+    <string name="wfd_ip_error">Cannot get target IP</string>
+    <string name="wfd_ip_get">Getting IP address...</string>
+    <string name="miracast_list">MiracastList</string>
+    <string name="miracast_setting">Setting</string>
+
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">Enter pin <xliff:g id="number">%1$s</xliff:g> on your Wi-Fi router. The setup can take up to two minutes to complete.</string>
+    <string name="wifi_wps_complete">WPS succeeded. Connecting to the network\u2026</string>
+    <string name="wifi_wps_failed_overlap">Another WPS session was detected. Please try again in a few minutes.</string>
+    <string name="wifi_wps_failed_wep">The wireless router security setting (WEP) is not supported</string>
+    <string name="wifi_wps_failed_tkip">The wireless router security setting (TKIP) is not supported</string>
+    <string name="wifi_wps_in_progress">WPS is already in progress and can take up to two minutes to complete</string>
+    <string name="wifi_wps_failed_generic">WPS failed. Please try again in a few minutes.</string>
+    <string name="wifi_wps_failed">WPS failed. Please turn on wifi.</string>
+    <string name="wifi_wps_onstart_pbc">Press the Wi-Fi Protected Setup button on your router. It may be called \"WPS\" or contain this symbol:</string>
+    <string name="wifi_wps_connected">Connected to Wi-Fi network <xliff:g id="network_name">%s</xliff:g></string>
+    <string name="wifi_addr">IP address: <xliff:g id="number">%s</xliff:g></string>
+
+    <string name="menu_settings">MiracastTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="listen_channel_title">Listen channel</string>
+    <string name="listen_channel_dialog_title">Select listen channel</string>
+    <string name="operating_channel_title">Operating channel</string>
+    <string name="operating_channel_dialog_title">Select operating channel</string>
+    <string name="go_intent_title">GO intent</string>
+    <string name="go_intent_dialog_title">Select GO intent value</string>
+    <string name="auto_go_mode_title">Auto Go Mode</string>
+    <string name="self_cmd">Input shell command</string>
+
+    <string name="ssid_title">SSID</string>
+    <string name="psk_title">PSK</string>
+    <string name="TV">TV</string>
+    <string name="DeviceID">设备名称：</string>
+    <string name="MacAddress">MAC 地址</string>
+    <string name="Ready">等待连接中...</string>
+
+    <string name="PIN">PIN:</string>
+    <string name="wifi_wps_pin"><xliff:g id="numberstring">%1$s</xliff:g></string>
+    <string name="wifi_wps_success">与手机连接成功</string>
+    <string name="wifi_create_group_failed">TV与手机连接失败，请重新连接</string>
+    <string name="wifi_p2p_enalbe_failed">请确认WiFi可以用</string>
+    <string name="wifi_wps_disconnect"> The connection has been terminated.</string>
+    <string name="wifi_wps_after_success"> 连接至Screen Mirroring。请稍候。</string>
+    <string name="device_terminate">The connection has been terminated.</string>
+    <string name="Ready_dialog">当Screen Mirroring正在运转过程中无法使用Wi-Fi。继续吗？</string>
+    <string name="connect_try">设定超时。请重试。</string>
+    <string name="connect_exit">确定要退出吗？</string>
+    <string name="Terminate_Dialog">连接中断。</string>
+
+    <string name="menu">Menu</string>
+    <string name="mdisplay">信息</string>
+    <string name="Connected_Device">连接设备</string>
+    <string name="Resolution">分辨率</string>
+    <string name="Video_codec">视频编码解码器</string>
+    <string name="Audio_codec">音频编码解码器</string>
+
+    <string name="help_question1">疑问1：手机与电视是否需要连接相同网络？</string>
+    <string name="help_answer1">解答：该功能支持电视端无网络使用。</string>
+    <string name="help_question2">疑问2：如何使用该功能？</string>
+    <string name="help_answer2">解答：查看屏幕右下角设备名称，如Smart TV-1234，在手机端设备列表中搜索并完成配对。</string>
+    <string name="device_prefix">"设备 "</string>
+    <string name="help_prompt">"1.仅支持安卓手机        2.手机端需选中设备名:Smart TV-xxxx 方可使用        3.请保持Wi-Fi可用"</string>
+    
+    <string name="describe_title">安卓镜像</string>
+    <string name="describe_subhead">手机、电脑极速秒投，小屏内容，大屏呈现！</string>
+    <string name="operation">操作说明</string>
+    <string name="index_one">01</string>
+    <string name="index_two">02</string>
+    <string name="index_three">03</string>
+    <string name="index_four">04</string>
+    <string name="index_one_des">安卓手机:\n下滑状态栏，点击投屏/无线投屏，选择设备：</string>
+    <string name="index_two_des">Window 10电脑投屏：\n点击右下角通知框/投影/连接到显示器，选择设备：</string>
+    <string name="index_three_des">镜像中Wi-Fi直连致使电视其他网络功能无法使用</string>
+    <string name="index_four_des">按遥控器“返回键”即可退出，网络功能即可恢复</string>
+    <string name="describe_note">* 安卓镜像中需要保证Wi-Fi可用</string>
+    <string name="versioncode">版本号：</string>
+    <string name="index_three_des_dbdc">按遥控器“返回键”即可退出</string>
+
+</resources>

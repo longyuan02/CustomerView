@@ -174,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
     public static int pxToDip(Context context, float px) {
 //        获取手机屏幕像素密度
         final float scale = context.getResources().getDisplayMetrics().density;
+        final float scaless = context.getResources().getDisplayMetrics().density;
         return (int) (px / scale + 0.5f);
     }
 }

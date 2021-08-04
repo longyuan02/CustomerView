@@ -87,5 +87,6 @@
     <string name="describe_note">* 安卓镜像中需要保证Wi-Fi可用</string>
     <string name="versioncode">版本号：</string>
     <string name="index_three_des_dbdc">按遥控器“返回键”即可退出</string>
-    <string name="index_threet">add add</string>
+    <string name="index_threet1">add add</string>
+    <string name="index_threet21">add add</string>
 </resources>

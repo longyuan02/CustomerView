@@ -22,3 +22,8 @@ values--> attrs.xml
 
 # CustomerView
 # git@github.com:longyuan02/CustomerView.git
+
+#### 图片裁剪 旋转
+   * MatrixView.class
+     ** 使用api PathMeasure
+

@@ -29,16 +29,16 @@
 <!--        app:sideColor="@color/blue"-->
 <!--        tools:ignore="MissingConstraints" />-->
 
-<!--    <com.example.customeranimor.CanvasViews-->
-<!--        android:layout_width="300dp"-->
-<!--        android:layout_height="300dp"-->
-<!--        android:layout_marginLeft="100dp"-->
-<!--        android:visibility="gone"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:sideColor="@color/blue"-->
-<!--        tools:ignore="MissingConstraints" />-->
+    <com.example.customeranimor.CanvasViews
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="100dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sideColor="@color/blue"
+        tools:ignore="MissingConstraints" />
 
 <!--    <com.example.customeranimor.PathMeasureView-->
 <!--        android:layout_width="match_parent"-->
@@ -72,13 +72,13 @@
 <!--        app:layout_constraintRight_toRightOf="parent"-->
 <!--        tools:ignore="OnClick" />-->
 
-    <com.example.customeranimor.MatrixView
-        android:id="@+id/idMatrix"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--    <com.example.customeranimor.MatrixView-->
+<!--        android:id="@+id/idMatrix"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

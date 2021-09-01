@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-        idMatrix = findViewById(R.id.idMatrix);
-        idMatrix.invalidate();
+//        idMatrix = findViewById(R.id.idMatrix);
+//        idMatrix.invalidate();
 //        pathMeasureView = findViewById(R.id.pathMeasure);
 //        CanvasLightLine cv = findViewById(R.id.cv);
 //        ConstraintLayout cl = findViewById(R.id.cl);
